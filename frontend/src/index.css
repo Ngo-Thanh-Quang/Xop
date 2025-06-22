@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Aleo:ital,wght@0,100..900;1,100..900&family=Mea+Culpa&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+a.active hr{
+    display: block;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-text{
+      color: #472e0f;
+}
+
+body {
+  background-color: #fffdf9;
+}
+
+.aleo {
+  font-family: "Aleo", serif;
+}
+
+.Agbalumo {
+  font-family: "Agbalumo", sans-serif;
+}
+
+.mea-culpa {
+  font-family: "Mea Culpa", cursive;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media(max-width: 640px) {
+  a.active{
+    background-color: #472e0f;
+    color: white;
+  }
+}
