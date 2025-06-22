@@ -83,7 +83,6 @@ const Navbar = () => {
           />
           {token && <div className="absolute right-0 pt-4 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-300 ease-out">
             <div className="flex flex-col gap-2 w-36 py-3 px-5 bg-white main-text rounded">
-              <p className="cursor-pointer hover:text-amber-700">Hồ Sơ</p>
               <p onClick={()=>navigate('/orders')} className="cursor-pointer hover:text-amber-700">Đơn Hàng</p>
               <p
                 onClick={logout}
